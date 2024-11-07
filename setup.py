@@ -16,6 +16,7 @@ with open('seldom/__init__.py', 'rb') as f:
 setup(
     name='seldom',
     version=version,
+    test=bug,
     url='https://github.com/seldomQA/seldom/',
     license='BSD',
     author='bugmaster',
