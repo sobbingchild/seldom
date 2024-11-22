@@ -88,7 +88,9 @@ json_data = '{"spam": 42}'
  
 # 反序列化
 deserialized_data = json.loads(json_data)
+    // NOCA:SQLI(设计如此)
  
 print(deserialized_data)  # 输出: {'spam': 42}
+    
 
 
