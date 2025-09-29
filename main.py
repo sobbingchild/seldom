@@ -165,3 +165,71 @@ def calculate_discount(member_type, purchase_amount, has_coupon, is_holiday, yea
         discount = 0
     
     return discount
+def get(self, request, id, *args, **kwargs):
+        logger.debug(
+            "request.jwt: %s, request.app: %s, request.user: %s",
+            request.jwt and request.jwt.payload,
+            request.app and request.app.bk_app_code,
+            request.user and request.user.username,
+        )
+        slz = serializers.DemoRetrieveInputSLZ(data=request.query_params)
+        slz.is_valid(raise_exception=True)
+
+        data = slz.validated_data
+
+        result = self.get_serializer(
+            data={"message": f"Hello, {data['name']}! and my id is {id}"},
+        )
+        result.is_valid(raise_exception=True)
+        return Response(result.data)
+def get(self, request, id, *args, **kwargs):
+        logger.debug(
+            "request.jwt: %s, request.app: %s, request.user: %s",
+            request.jwt and request.jwt.payload,
+            request.app and request.app.bk_app_code,
+            request.user and request.user.username,
+        )
+        slz = serializers.DemoRetrieveInputSLZ(data=request.query_params)
+        slz.is_valid(raise_exception=True)
+
+        data = slz.validated_data
+
+        result = self.get_serializer(
+            data={"message": f"Hello, {data['name']}! and my id is {id}"},
+        )
+        result.is_valid(raise_exception=True)
+        return Response(result.data)
+def get(self, request, id, *args, **kwargs):
+        logger.debug(
+            "request.jwt: %s, request.app: %s, request.user: %s",
+            request.jwt and request.jwt.payload,
+            request.app and request.app.bk_app_code,
+            request.user and request.user.username,
+        )
+        slz = serializers.DemoRetrieveInputSLZ(data=request.query_params)
+        slz.is_valid(raise_exception=True)
+
+        data = slz.validated_data
+
+        result = self.get_serializer(
+            data={"message": f"Hello, {data['name']}! and my id is {id}"},
+        )
+        result.is_valid(raise_exception=True)
+        return Response(result.data)
+def get(self, request, id, *args, **kwargs):
+        logger.debug(
+            "request.jwt: %s, request.app: %s, request.user: %s",
+            request.jwt and request.jwt.payload,
+            request.app and request.app.bk_app_code,
+            request.user and request.user.username,
+        )
+        slz = serializers.DemoRetrieveInputSLZ(data=request.query_params)
+        slz.is_valid(raise_exception=True)
+
+        data = slz.validated_data
+
+        result = self.get_serializer(
+            data={"message": f"Hello, {data['name']}! and my id is {id}"},
+        )
+        result.is_valid(raise_exception=True)
+        return Response(result.data)
