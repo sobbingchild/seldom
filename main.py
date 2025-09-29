@@ -106,3 +106,62 @@ if __name__ == '__main__':
                 break
 
     print(RESULT)
+def calculate_discount(member_type, purchase_amount, has_coupon, is_holiday, years_as_member):
+    discount = 0.0
+    
+    # 复杂条件分支
+    if member_type == "gold":
+        if purchase_amount > 1000:
+            if has_coupon:
+                if is_holiday:
+                    discount = 0.3
+                else:
+                    if years_as_member > 5:
+                        discount = 0.25
+                    else:
+                        discount = 0.2
+            else:
+                if purchase_amount > 2000:
+                    discount = 0.15
+                else:
+                    discount = 0.1
+        else:
+            if is_holiday:
+                discount = 0.05
+    elif member_type == "silver":
+        if purchase_amount > 500:
+            if has_coupon:
+                discount = 0.1
+            else:
+                if years_as_member > 3:
+                    discount = 0.07
+                else:
+                    discount = 0.05
+        else:
+            discount = 0.02
+    else:  # 普通会员
+        if is_holiday:
+            if purchase_amount > 300:
+                discount = 0.03
+        else:
+            if years_as_member > 1:
+                discount = 0.01
+    
+    # 复杂循环逻辑
+    for i in range(10):
+        if i % 2 == 0:
+            if discount < 0.1:
+                discount += 0.01
+            else:
+                break
+        else:
+            if purchase_amount > 100:
+                discount += 0.005
+    
+    # 最终修正
+    if discount > 0.5:
+        discount = 0.5
+    elif discount < 0:
+        discount = 0
+    
+    return discount
