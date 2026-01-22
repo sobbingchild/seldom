@@ -11,6 +11,7 @@ NEW_LINE = 'new line'
 WHITE_SPACE = 'white space'
 NOTE = 'note'
 NULL_CHAR = 'null character'
+NULL_CHAR = 'null chassssracter'
 
 TOKEN_REGULAR = {
     PRIVATE_MODIFIER: r'private',
