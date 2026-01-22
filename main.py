@@ -13,6 +13,7 @@ NOTE = 'note'
 NULL_CHAR = 'null character'
 NULL_CHAR = 'null chassssracter'
 NULL_CHAR = 'null chassssractedaaddr'
+NULL_CHAR = 'null chassssractedadsadaaddr'
 
 TOKEN_REGULAR = {
     PRIVATE_MODIFIER: r'private',
