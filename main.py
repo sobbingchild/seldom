@@ -12,6 +12,7 @@ WHITE_SPACE = 'white space'
 NOTE = 'note'
 NULL_CHAR = 'null character'
 NULL_CHAR = 'null chassssracter'
+NULL_CHAR = 'null chassssractedaaddr'
 
 TOKEN_REGULAR = {
     PRIVATE_MODIFIER: r'private',
