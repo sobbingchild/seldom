@@ -15,6 +15,7 @@ NULL_CHAR = 'null chassssracter'
 NULL_CHAR = 'null chassssractedaaddr'
 NULL_CHAR = 'null chassssractedadsadaaddr'
 NULL_CHAR = 'null chassssractedadsadaaddrdaadsd'
+NULL_CHAR = 'null chassssractedadsadaaddrdaadsddasaa'
 
 TOKEN_REGULAR = {
     PRIVATE_MODIFIER: r'private',
