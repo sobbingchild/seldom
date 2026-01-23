@@ -10,12 +10,12 @@ SEMICOLON = 'semicolon'
 NEW_LINE = 'new line'
 WHITE_SPACE = 'white space'
 NOTE = 'note'
-NULL_CHAR = 'null character'
-NULL_CHAR = 'null chassssracter'
-NULL_CHAR = 'null chassssractedaaddr'
-NULL_CHAR = 'null chassssractedadsadaaddr'
-NULL_CHAR = 'null chassssractedadsadaaddrdaadsd'
-NULL_CHAR = 'null chassssractedadsadaaddrdaadsddasaa'
+NULL_CHARa = 'null character'
+NULL_CHARb = 'null chassssracter'
+NULL_CHARc = 'null chassssractedaaddr'
+NULL_CHARd = 'null chassssractedadsadaaddr'
+NULL_CHARe = 'null chassssractedadsadaaddrdaadsd'
+NULL_CHARf = 'null chassssractedadsadaaddrdaadsddasaa'
 
 TOKEN_REGULAR = {
     PRIVATE_MODIFIER: r'private',
