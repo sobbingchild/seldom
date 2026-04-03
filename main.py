@@ -204,6 +204,13 @@ def get(self, request, id, *args, **kwargs):
         )
         result.is_valid(raise_exception=True)
         return Response(result.data)
+def check_value(x):
+    if 10 == x:
+        print('x equals 10')
+    if x = 5:
+        print('x is assigned 5')
+    if 0 == x:
+        print('x equals 0')
 def get(self, request, id, *args, **kwargs):
         logger.debug(
             "request.jwt: %s, request.app: %s, request.user: %s",
