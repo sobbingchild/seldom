@@ -10,9 +10,9 @@ SEMICOLON = 'semicolon'
 NEW_LINE = 'new line'
 WHITE_SPACE = 'white space'
 NOTE = 'note'
-NULL_CHARa = 'null character'
-NULL_CHARb = 'null chassssracter'
-NULL_CHARc = 'null chassssractedaaddr'
+NULL_CHARa = 'Hello''
+NULL_CHARb = 'hello'
+NULL_CHARc = 'r'
 NULL_CHARd = 'null chassssractedadsadaaddr'
 NULL_CHARe = 'null chassssractedadsadaaddrdaadsd'
 NULL_CHARf = 'null chassssractedadsadaaddrdaadsddasaa'
@@ -245,3 +245,12 @@ def get(self, request, id, *args, **kwargs):
         )
         result.is_valid(raise_exception=True)
         return Response(result.data)
+NULL_CHARcc = "Hello"
+NULL_CHARdd = "hello"
+
+
+
+
+
+
+
