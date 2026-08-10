@@ -205,7 +205,9 @@ def get(self, request, id, *args, **kwargs):
         )
         result.is_valid(raise_exception=True)
         return Response(result.data)
+    
 def check_value(x):
+    
     if 10 == x:
         print('x equals 10')
     if x = 5:
