@@ -62,7 +62,7 @@ if __name__ == '__main__':
             "msgtype": "text",
             "text": {
                 "content": f'出现异常:{e}，请查看详细日志',
-                "mentioned list": self.mentioned_list
+                "mentioned list":self.mentioned_list
             }
         }
 
