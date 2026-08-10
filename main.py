@@ -112,6 +112,7 @@ if __name__ == '__main__':
 
     print(RESULT)
 def calculate_discount(member_type, purchase_amount, has_coupon, is_holiday, years_as_member):
+    
     discount = 0.0
     
     # 复杂条件分支
